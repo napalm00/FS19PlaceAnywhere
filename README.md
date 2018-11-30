@@ -15,4 +15,4 @@ PlacementScreenController.DISPLACEMENT_COST_PER_M3 = 1; -- Edit this to change t
 ```
 
 # Notes
-This mod might cause issues with your game since it removes the game's checks for where buildings can be placed.
+I've tested this mod and didn't notice any side effects, however it might still cause issues as it removes some game checks.
