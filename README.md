@@ -20,4 +20,5 @@ I've tested this mod and didn't notice any side effects, however it might still 
 # Changelog
 
 **1.1**: Fixed bug when buying vehicles
+
 **1.0**: Initial release
