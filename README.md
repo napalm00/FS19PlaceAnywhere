@@ -1,6 +1,8 @@
 # Place Anywhere mod for Farming Simulator 19
 This mod lets you place buildings anywhere in your land, including within other buildings.
 
+![Place Anywhere](https://i.imgur.com/FZ4SIYF.png)
+
 # Installation
 1. Download the latest version from the [releases page](https://github.com/napalm00/FS19PlaceAnywhere/releases)
 2. Place the downloaded zip in your `Documents/My Games/FarmingSimulator19/mods` folder
