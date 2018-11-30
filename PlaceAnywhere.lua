@@ -10,7 +10,6 @@ function PlaceAnywhere:loadMap(name)
     PlacementUtil.isInsidePlacementPlaces = Utils.overwrittenFunction(PlacementUtil.isInsidePlacementPlaces, PlaceAnywhere.isInsidePlacementPlaces);
     PlacementUtil.isInsideRestrictedZone = Utils.overwrittenFunction(PlacementUtil.isInsideRestrictedZone, PlaceAnywhere.isInsideRestrictedZone);
     PlacementUtil.hasOverlapWithPoint = Utils.overwrittenFunction(PlacementUtil.hasOverlapWithPoint, PlaceAnywhere.hasOverlapWithPoint);
-    PlacementUtil.markPlaceUsed = Utils.overwrittenFunction(PlacementUtil.markPlaceUsed, PlaceAnywhere.markPlaceUsed);
     TerrainDeformation.setOutsideAreaConstraints = Utils.overwrittenFunction(TerrainDeformation.setOutsideAreaConstraints, PlaceAnywhere.setOutsideAreaConstraints);
     TerrainDeformation.setDynamicObjectCollisionMask = Utils.overwrittenFunction(TerrainDeformation.setDynamicObjectCollisionMask, PlaceAnywhere.setDynamicObjectCollisionMask);
     
