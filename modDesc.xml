@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+
+   <title>
+    <en>PlaceAnywhere</en>
+   </title>
+   
+	 <description>
+    <en>Place Objects anywhere</en>
+  </description>
+	
+   <author>naPalm</author>
+        
+	 <version>1.0</version>
+	
+   <multiplayer supported="true" />
+        
+	 <iconFilename>icon_blank.dds</iconFilename>
+	
+   <extraSourceFiles>
+     <sourceFile filename="PlaceAnywhere.lua" />
+   </extraSourceFiles>
+</modDesc>
