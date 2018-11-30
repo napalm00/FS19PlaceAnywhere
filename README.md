@@ -16,3 +16,8 @@ PlacementScreenController.DISPLACEMENT_COST_PER_M3 = 1; -- Edit this to change t
 
 # Notes
 I've tested this mod and didn't notice any side effects, however it might still cause issues as it removes some game checks.
+
+# Changelog
+
+**1.1**: Fixed bug when buying vehicles
+**1.0**: Initial release
