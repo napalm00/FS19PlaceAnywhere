@@ -10,7 +10,7 @@ function PlaceAnywhere:loadMap(name)
     PlacementUtil.isInsidePlacementPlaces = Utils.overwrittenFunction(PlacementUtil.isInsidePlacementPlaces, PlaceAnywhere.isInsidePlacementPlaces);
     PlacementUtil.isInsideRestrictedZone = Utils.overwrittenFunction(PlacementUtil.isInsideRestrictedZone, PlaceAnywhere.isInsideRestrictedZone);
     PlacementUtil.hasOverlapWithPoint = Utils.overwrittenFunction(PlacementUtil.hasOverlapWithPoint, PlaceAnywhere.hasOverlapWithPoint);
-    TerrainDeformation.setOutsideAreaConstraints = Utils.overwrittenFunction(TerrainDeformation.setOutsideAreaConstraints, PlaceAnywhere.setOutsideAreaConstraints);
+    --TerrainDeformation.setOutsideAreaConstraints = Utils.overwrittenFunction(TerrainDeformation.setOutsideAreaConstraints, PlaceAnywhere.setOutsideAreaConstraints); causes crash and is useless?
     TerrainDeformation.setDynamicObjectCollisionMask = Utils.overwrittenFunction(TerrainDeformation.setDynamicObjectCollisionMask, PlaceAnywhere.setDynamicObjectCollisionMask);
     
     PlacementScreenController.onTerrainValidationFinished = Utils.overwrittenFunction(PlacementScreenController.onTerrainValidationFinished, PlaceAnywhere.onTerrainValidationFinished);
@@ -34,10 +34,6 @@ end;
 
 function PlaceAnywhere:setBlockedAreaMap(superFunc, ...)
     return true;
-end
-
-function PlaceAnywhere:createRestrictedZone(superFunc, ...)
-    return superFunc(self, ...);
 end
 
 function PlaceAnywhere:hasObjectOverlap(superFunc, ...)   
