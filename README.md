@@ -14,10 +14,19 @@ You can change the cost of terrain modifications by opening `PlaceAnywhere.lua` 
 PlacementScreenController.DISPLACEMENT_COST_PER_M3 = 1; -- Edit this to change the terrain modification cost per cubic meter (game default: 50)
 ```
 
+Additionally you can also change the cost of landscaping by editing this line in the same file:
+```
+Landscaping.SCULPT_BASE_COST_PER_M3 = 1; -- Edit this to change the landscaping cost per cubic meter (game default: 50)
+```
+
 # Notes
 I've tested this mod and didn't notice any side effects, however it might still cause issues as it removes some game checks.
 
 # Changelog
+
+**1.3** Added landscaping cost change and terrain ownership/deformation toggle controls (courtesy fo scfmod)
+
+**1.2** Fixed crash when placing sheds
 
 **1.1**: Fixed bug when buying vehicles
 
