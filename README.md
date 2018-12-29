@@ -8,6 +8,10 @@ This mod lets you place buildings anywhere in your land, including within other 
 2. Place the downloaded zip in your `Documents/My Games/FarmingSimulator19/mods` folder
 3. Launch the game and enable the mod in the mission start screen
 
+# Controls
+`0` to toggle terrain deformation (default: deformation on)
+`8` to toggle terrain ownership checks (default: land ownership required)
+
 # Configuration
 You can change the cost of terrain modifications by opening `PlaceAnywhere.lua` in the mod's zip file and changing the value of
 ```
@@ -24,9 +28,9 @@ I've tested this mod and didn't notice any side effects, however it might still 
 
 # Changelog
 
-**1.3** Added landscaping cost change and terrain ownership/deformation toggle controls (courtesy fo scfmod)
+**1.3**: Added landscaping cost change and terrain ownership/deformation toggle controls (courtesy fo scfmod)
 
-**1.2** Fixed crash when placing sheds
+**1.2**: Fixed crash when placing sheds
 
 **1.1**: Fixed bug when buying vehicles
 
