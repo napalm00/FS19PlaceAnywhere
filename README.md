@@ -10,6 +10,7 @@ This mod lets you place buildings anywhere in your land, including within other 
 
 # Controls
 `0` to toggle terrain deformation (default: deformation on)
+
 `8` to toggle terrain ownership checks (default: land ownership required)
 
 # Configuration
