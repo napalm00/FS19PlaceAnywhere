@@ -24,6 +24,8 @@ function PlaceAnywhere:loadMap(name)
 
     -- override area owner check
     PlacementScreenController.isPlacementValid = Utils.overwrittenFunction(PlacementScreenController.isPlacementValid, PlaceAnywhere.isPlacementValid);
+    -- override area owner check for landscaping
+    Landscaping.isModificationAreaOnOwnedLand = Utils.overwrittenFunction(Landscaping.isModificationAreaOnOwnedLand, PlaceAnywhere.isModificationAreaOnOwnedLand);
 
     -- override terrain deformation
     Placeable.addPlaceableLevelingArea = Utils.overwrittenFunction(Placeable.addPlaceableLevelingArea, PlaceAnywhere.addPlaceableLevelingArea);
@@ -47,6 +49,14 @@ function PlaceAnywhere:addPlaceableRampArea(superFunc, ...)
 end
 
 function PlaceAnywhere:isPlacementValid(superFunc, ...)
+    if overrideAreaOwnerCheck then
+        return true
+    else
+        return superFunc(self, ...)
+    end
+end
+
+function PlaceAnywhere:isModificationAreaOnOwnedLand(superFunc, ...)
     if overrideAreaOwnerCheck then
         return true
     else
