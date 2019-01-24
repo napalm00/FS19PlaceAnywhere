@@ -29,7 +29,9 @@ I've tested this mod and didn't notice any side effects, however it might still 
 
 # Changelog
 
-**1.3**: Added landscaping cost change and terrain ownership/deformation toggle controls (courtesy fo scfmod)
+**1.4**: Added ownership toggle for terraforming/painting tool ([courtesy of 206airmail](https://github.com/napalm00/FS19PlaceAnywhere/pull/4))
+
+**1.3**: Added landscaping cost change and terrain ownership/deformation toggle controls (courtesy of scfmod)
 
 **1.2**: Fixed crash when placing sheds
 
